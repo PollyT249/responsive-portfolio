@@ -30,6 +30,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -138,43 +142,43 @@ nav li.active a {
   padding: 120px 30px;
 }
 
-.work-inquiry {
-  font-size: 48px;
-  background-color: var(--secondary-color);
-  font-weight: bold;
-  border-radius: 20px;
-  padding-top: 40px;
-  margin-top: 120px;
-  margin-bottom: 80px;
+footer {
+  margin: 60px 0;
 }
 
-.work-inquiry p {
-  font-family: var(--default-font-family);
-  font-size: 18px;
-  line-height: 2;
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
-.contact-btn {
-  padding-top: 10px;
+footer .contat-box p {
+  margin: 0;
 }
 
-.contact-info a {
+footer .email-link {
   font-size: 24px;
-  font-weight: 500;
   text-decoration: none;
   color: black;
 }
 
-.icons i {
+footer .email-link:hover {
   color: var(--branding-color);
-  font-size: 18px;
-  border: 0 solid var(--secondary-color);
-  border-radius: 50%;
-  border-width: 15px;
 }
 
-.fa-square-facebook {
-  margin: 0 33px;
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
