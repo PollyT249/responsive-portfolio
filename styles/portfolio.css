@@ -1,7 +1,6 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -41,11 +40,11 @@ p {
 }
 
 .logo {
-  max-height: 40px;
+  max-height: 72px;
 }
 
 nav {
-  padding: 20px 0;
+  padding: 28px 0;
 }
 
 nav ul {
@@ -63,6 +62,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #272142;
+  font-size: 18px;
   transition: color 0.2s ease-in-out;
 }
 
@@ -120,6 +120,10 @@ nav li.active a {
   margin: 30px;
 }
 
+.contact-link {
+  font-size: 20px;
+}
+
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
@@ -139,7 +143,7 @@ nav li.active a {
 }
 
 .project-description {
-  padding: 120px 30px;
+  padding: 50px 20px;
 }
 
 .portfolio-photo {
@@ -174,8 +178,8 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
-  padding: 10px 16px;
-  font-size: 18px;
+  padding: 20px 32px;
+  font-size: 36px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
